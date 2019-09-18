@@ -30,3 +30,26 @@ Giả sử ta có layout html:
 ![Inline-block](https://github.com/khacthe/Layout/blob/master/display_inline.png)
 
 [Link pull](https://github.com/khacthe/Layout/pull/2)
+
+## Float: left/right
+
+Đây là thuộc tính ta hay gặp nhất nếu ở thời điểm 2-3 năm về trước khi mọi framework css để sử dụng nó để chia layout.
+Điều quan trong nhất khi sử dụng float: left là làm sao để tránh trường hợp height của phần tử cần đồng đều, khi xây dựng layout thuộc tính này thường đi kèm với thuộc tính clear: both.
+
+Với ví dụ trước đó ta chỉ cần sử dụng float thay cho display: inline-block.
+```
+
+.sidebar {
+  float: left;
+}
+
+or 
+
+.main {
+  float: right;
+}
+
+```
+
+[Link pull](https://github.com/khacthe/Layout/pull/3)
+
