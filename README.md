@@ -7,7 +7,7 @@ Việc lựa chọn thuộc tính xây dựng layout trong css có sự phát tr
 
 ![Overview](https://github.com/khacthe/Layout/blob/master/531-298-.png)
 
-## Display: block
+## Display: inline-block
 - Đây có thể nói là thuộc tính đầu tiên bắt đầu cho quá trình xây dựng layout, điểm ưu việt của thuộc tính này đó chính là hỗ trợ ở mọi trình duyệt.
 
 Giả sử ta có layout html:
