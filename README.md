@@ -53,3 +53,20 @@ or
 
 [Link pull](https://github.com/khacthe/Layout/pull/3)
 
+
+## Display: flex
+
+Có thể nói đây là thời của nó vì hầu như tất cả các framework css hiện tại đều đang sử dụng để dựng layout, các thuộc tính đi kèm giúp cho việc định vị các item trở nên dễ dàng hơn bao giờ hết. Phần tài liệu chi tiết bạn có thể tham khảo tại [Tai lieu](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+- Hạn chế của cách này là thiết kế cho lưới một chiều (chỉ có một dòng duy nhất) va không support các các trình duyệt cũ kĩ, đặc biệt là các sản phẩm do kẻ lắm chuyện microsoft làm ra.
+
+- Struct
+```
+  .parent_element {
+  	display: flex;
+
+  	// ---something--- //
+  }
+```
+
+
