@@ -69,4 +69,23 @@ Có thể nói đây là thời của nó vì hầu như tất cả các framewo
   }
 ```
 
+## Display: grid
+
+- Nếu như inline-block/float là quá khứ, flex là hiện tại thì grid là tương lai. Với grid nó bổ sung thêm phần hạn chế của flex đó chính là thiết kế cho lưới 2 chiều, Việc xây dựng layout trở nên linh hoạt hơn bao giờ hết.
+Đương nhiên điểm hạn chế của của thuộc tính này vẫn sẽ không tránh khỏi việc không được support ở các trình duyệt cũ.
+
+- Struct example
+
+```
+.parent {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+```
+- 
+[Tai lieu tham khao](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+## Note
+- Ngoài các kiểu trên các bạn có thể sử dụng thêm các thuộc tính position để dựng layout, Việc lựa chọn thuộc tính nào phụ thuộc rất nhiều vào việc support của trình duyệt.
 
