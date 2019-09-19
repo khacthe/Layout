@@ -36,6 +36,8 @@ Giả sử ta có layout html:
 Đây là thuộc tính ta hay gặp nhất nếu ở thời điểm 2-3 năm về trước khi mọi framework css để sử dụng nó để chia layout.
 Điều quan trong nhất khi sử dụng float: left là làm sao để tránh trường hợp height của phần tử cần đồng đều, khi xây dựng layout thuộc tính này thường đi kèm với thuộc tính clear: both.
 
+![Overview](https://github.com/khacthe/Layout/blob/master/float.png)
+
 Với ví dụ trước đó ta chỉ cần sử dụng float thay cho display: inline-block.
 ```
 
@@ -58,6 +60,8 @@ or
 
 Có thể nói đây là thời của nó vì hầu như tất cả các framework css hiện tại đều đang sử dụng để dựng layout, các thuộc tính đi kèm giúp cho việc định vị các item trở nên dễ dàng hơn bao giờ hết. Phần tài liệu chi tiết bạn có thể tham khảo tại [Tai lieu](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+![Overview](https://github.com/khacthe/Layout/blob/master/fl.png)
+
 - Hạn chế của cách này là thiết kế cho lưới một chiều (chỉ có một dòng duy nhất) va không support các các trình duyệt cũ kĩ, đặc biệt là các sản phẩm do kẻ lắm chuyện microsoft làm ra.
 
 - Struct
@@ -73,6 +77,8 @@ Có thể nói đây là thời của nó vì hầu như tất cả các framewo
 
 - Nếu như inline-block/float là quá khứ, flex là hiện tại thì grid là tương lai. Với grid nó bổ sung thêm phần hạn chế của flex đó chính là thiết kế cho lưới 2 chiều, Việc xây dựng layout trở nên linh hoạt hơn bao giờ hết.
 Đương nhiên điểm hạn chế của của thuộc tính này vẫn sẽ không tránh khỏi việc không được support ở các trình duyệt cũ.
+
+![Overview](https://github.com/khacthe/Layout/blob/master/grid.png)
 
 - Struct example
 
