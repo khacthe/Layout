@@ -78,7 +78,7 @@ Có thể nói đây là thời của nó vì hầu như tất cả các framewo
 - Nếu như inline-block/float là quá khứ, flex là hiện tại thì grid là tương lai. Với grid nó bổ sung thêm phần hạn chế của flex đó chính là thiết kế cho lưới 2 chiều, Việc xây dựng layout trở nên linh hoạt hơn bao giờ hết.
 Đương nhiên điểm hạn chế của của thuộc tính này vẫn sẽ không tránh khỏi việc không được support ở các trình duyệt cũ.
 
-![Overview](https://github.com/khacthe/Layout/blob/master/grid.png)
+![Overview](https://github.com/khacthe/Layout/blob/master/gr.png)
 
 - Struct example
 
